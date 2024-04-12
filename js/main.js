@@ -47,7 +47,7 @@ function Ramadan() {
             <div style="width: 50%; margin: auto;"><img src="images/WhatsApp Image 2024-03-10 at 13.30.53_bbeb5cbc.jpg" width="80" alt=""></div>
             <h3 class="wish"> </h3>
             <span> </span>
-            <p>Madonna Adel (Web UI INTAKE 44 )</p>`;
+            `;
     } else {
         if (whishIndex == wishes.length) {
             whishIndex = 0;
@@ -58,7 +58,7 @@ function Ramadan() {
             </h1>
             <h3 class="wish">${randomWish.wish}</h3>
             <span>مش عجباك دي في غيرها... دوس سيرش</span>
-            <p>Madonna Adel (Web UI INTAKE 44 )</p>`;
+            `;
         whishIndex = whishIndex + 1;
         var audio = document.getElementById('hiddenAudio');
         audio.play();
